@@ -24,5 +24,4 @@ tools.google.com
 update.googleapis.com
 update.synology.com
 update7.synology.com
-vectormap0.bdimg.com
 xp.apple.com
