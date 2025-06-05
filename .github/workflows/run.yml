@@ -97,7 +97,7 @@ jobs:
       - name: Add proxy, direct and reject domains from "hidden" branch to appropriate temp files
         run: |
           rm -rf direct.txt reject.txt
-          curl -o reject.txt https://raw.githubusercontent.com/Teacher-c/MosDNS/refs/heads/main/my_ad.txt
+          curl -o reject.txt https://raw.githubusercontent.com/Teacher-c/MosDNS/refs/heads/main/blocklist.txt
           curl -o direct.txt https://raw.githubusercontent.com/Teacher-c/MosDNS/refs/heads/main/whitelist.txt
           sed -i '/^#/d' reject.txt
           sed -i '/^#/d' direct.txt
